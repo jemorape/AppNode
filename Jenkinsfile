@@ -1,13 +1,13 @@
 pipeline {
   agent any
 
-  tools {nodejs "node"}
+  tools {nodejs "nodejs"}
 
   stages {
 
     stage('Git') {
       steps {
-        git 'https://github.com/****/****'
+        git 'https://github.com/jemorape/AppNode.git'
       }
     }
 
