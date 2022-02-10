@@ -4,7 +4,8 @@
   "description": "jest testing",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest --passWithNoTests --coverage",
+    "start": "npm run build && node ./dist/index.js"
   },
   "repository": {
     "type": "git",
