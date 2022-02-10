@@ -2,7 +2,7 @@ def ARTIFACTORY_URL = 'http://artifactory.mfsbe.com/'
 def GIT_TAG = ''
 
 pipeline {
-    agent { label 'coreslave' }
+    agent { label 'NodeJs' }
 
     options {
         disableConcurrentBuilds()
