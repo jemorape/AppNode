@@ -7,7 +7,7 @@ pipeline {
         
     stage('Git') {
       steps {
-        git 'https://github.com/jemorape/AppNode'
+        git 'https://github.com/jemorape/AppNode.git'
       }
     }
      
